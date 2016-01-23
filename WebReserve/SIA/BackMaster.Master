@@ -1,0 +1,82 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" MasterPageFile="~/HomeMaster.Master" CodeBehind="BackMaster.master.vb" Inherits="SIA.BackMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="header" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="container title container-extension">
+        <div class="row-fluid">
+            <div class="span6">
+                <h2 style="color: #00bddf">
+                    Document Finder
+                </h2>
+            </div>
+            <div class="span6" style="float: right;">
+                <p style="float: right; font-size: 13px; margin-bottom: 0px">
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container navbar top-navbar bg_blue_light  container-extension" id="d1"
+        runat="server">
+        <ul class="nav top-nav">
+            <li><a id="A1" href="~/frm_Main.aspx"  runat="server">Home</a>
+            </li>
+            
+          
+                 <li><a id="A10" href="~/01_Report/frmReserve.aspx"  runat="server">Reserve</a>
+            </li>
+                        <li><a id="A2" href="~/frm_Login.aspx"  runat="server">Log out</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container container-extension">
+        <div class="row-fluid ">
+            <div class="span12 content">
+                <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            
+                <asp:ContentPlaceHolder ID="body" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+    </div>
+    <!-- java script -->
+    <%--<script src="../../_bootstrap/js/jquery.js" type="text/javascript"></script>
+    <script src="../../_bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../_bootstrap/js/bootstrap-dropdown.js" type="text/javascript"></script>
+    <script src="_js/spin.js" type="text/javascript"></script>
+    <script src="_js/spin.min.js" type="text/javascript"></script>--%>
+    <script type="text/javascript">
+        var $jbt = jQuery.noConflict();
+        $jbt(document).ready(function () {
+            $jbt('.dropdown-toggle').dropdown()
+        });
+
+
+
+        var opts = {
+            lines: 13, // The number of lines to draw
+            length: 20, // The length of each line
+            width: 10, // The line thickness
+            radius: 30, // The radius of the inner circle
+            corners: 1, // Corner roundness (0..1)
+            rotate: 0, // The rotation offset
+            direction: 1, // 1: clockwise, -1: counterclockwise
+            color: '#000', // #rgb or #rrggbb or array of colors
+            speed: 1, // Rounds per second
+            trail: 60, // Afterglow percentage
+            shadow: false, // Whether to render a shadow
+            hwaccel: false, // Whether to use hardware acceleration
+            className: 'spinner', // The CSS class to assign to the spinner
+            zIndex: 2e9, // The z-index (defaults to 2000000000)
+            top: 'auto', // Top position relative to parent in px
+            left: 'auto' // Left position relative to parent in px
+        };
+        var target = document.getElementById('Content2');
+        var spinner = new Spinner(opts).spin(target);
+
+    </script>
+</asp:Content>

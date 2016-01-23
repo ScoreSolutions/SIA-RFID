@@ -1,0 +1,9 @@
+C:\Application2013\SIA\SIA\bin\SIA.dll.config
+C:\Application2013\SIA\SIA\bin\SIA.dll
+C:\Application2013\SIA\SIA\bin\SIA.pdb
+C:\Application2013\SIA\SIA\bin\SIA.xml
+C:\Application2013\SIA\SIA\obj\Release\SIA.Resources.resources
+C:\Application2013\SIA\SIA\obj\Release\SIA.vbproj.GenerateResource.Cache
+C:\Application2013\SIA\SIA\obj\Release\SIA.dll
+C:\Application2013\SIA\SIA\obj\Release\SIA.xml
+C:\Application2013\SIA\SIA\obj\Release\SIA.pdb

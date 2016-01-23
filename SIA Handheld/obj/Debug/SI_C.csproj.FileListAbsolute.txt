@@ -1,0 +1,13 @@
+D:\MyProject\SIA-RFID\SIA Handheld\bin\Debug\SIA_Handheld.exe
+D:\MyProject\SIA-RFID\SIA Handheld\bin\Debug\SIA_Handheld.pdb
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\ResolveAssemblyReference.cache
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmTest.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmCheckIn.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmCheckOut.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmConfirm.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmLocate.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.frmMain.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SIA_Handheld.Properties.Resources.resources
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SI_C.csproj.GenerateResource.Cache
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SIA_Handheld.exe
+D:\MyProject\SIA-RFID\SIA Handheld\obj\Debug\SIA_Handheld.pdb
